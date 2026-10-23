@@ -33,10 +33,10 @@ Projekt 1
 
 ### Planung 23.10.2026
 
-- [ x] Neues C#-Konsolenprojekt «Aufgabenverwaltung» in Visual Studio erstellen, das Repository anbinden und den ersten Commit pushen
-- [ x] Klasse `Aufgabe` mit den Eigenschaften Titel, Beschreibung, Fälligkeitsdatum, Priorität und Status als Properties (`get`/`set`) umsetzen
-- [ x] Klasse `Aufgabenverwaltung` mit einer `List<Aufgabe>` und der Methode `Hinzufuegen` erstellen
-- [ x] Konsolenmenü mit `switch` bauen, das Aufgaben hinzufügt und mit `foreach` ausgibt, und die Funktion manuell testen
+- [x] Neues C#-Konsolenprojekt «Aufgabenverwaltung» in Visual Studio erstellen, das Repository anbinden und den ersten Commit pushen
+- [x] Klasse `Aufgabe` mit den Eigenschaften Titel, Beschreibung, Fälligkeitsdatum, Priorität und Status als Properties (`get`/`set`) umsetzen
+- [x] Klasse `Aufgabenverwaltung` mit einer `List<Aufgabe>` und der Methode `Hinzufuegen` erstellen
+- [x] Konsolenmenü mit `switch` bauen, das Aufgaben hinzufügt und mit `foreach` ausgibt, und die Funktion manuell testen
 
 #### Tagesreflexion
 Der Start mit einem neuen Projekt war einfacher als erwartet, weil ich zuerst das Klassendesign geplant habe, bevor ich Code geschrieben habe. Dadurch wusste ich bei `Aufgabe` und `Aufgabenverwaltung` genau, welche Eigenschaften und Methoden nötig sind. Beim Menü mit `switch` musste ich die Schleife mehrmals testen, bis die Eingaben richtig verarbeitet wurden. Daraus nehme ich mit, dass ich kleine Schritte sofort teste, statt erst am Ende. So finde ich Fehler früher und bleibe nicht wochenlang hängen wie beim Memory-Projekt.
