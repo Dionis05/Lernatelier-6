@@ -44,20 +44,22 @@ Der Start mit einem neuen Projekt war einfacher als erwartet, weil ich zuerst da
 
 ### Planung 30.10.2026
 
-- [ ] Methode `Loeschen` in der Klasse `Aufgabenverwaltung` umsetzen (Löschen über die Nummer, mit Prüfung auf ungültige Indizes) und im Menü einbinden
-- [ ] Methode `AlsErledigtMarkieren` umsetzen, die die Eigenschaft `IstErledigt` einer Aufgabe auf `true` setzt, und im Menü einbinden
-- [ ] Methode `Filtern` mit LINQ (`Where`) umsetzen, die nur offene Aufgaben oder Aufgaben einer bestimmten Priorität ausgibt
-- [ ] Alle neuen Funktionen anhand einer Testliste von Hand testen, Fehler beheben und committen und pushen
+- [x] Methode `Loeschen` in der Klasse `Aufgabenverwaltung` umsetzen (Löschen über die Nummer, mit Prüfung auf ungültige Indizes) und im Menü einbinden
+- [x] Methode `AlsErledigtMarkieren` umsetzen, die die Eigenschaft `IstErledigt` einer Aufgabe auf `true` setzt, und im Menü einbinden
+- [x] Methode `Filtern` mit LINQ (`Where`) umsetzen, die nur offene Aufgaben oder Aufgaben einer bestimmten Priorität ausgibt
+- [x] Alle neuen Funktionen anhand einer Testliste von Hand testen, Fehler beheben und committen und pushen
 
 #### Tagesreflexion
 
-...Ihr Text...
+Heute habe ich die Verwaltungsfunktionen ergänzt. Am meisten gelernt habe ich beim Löschen und Markieren, weil ich dort ungültige Indizes abfangen musste, damit das Programm nicht mit einer `ArgumentOutOfRangeException` abstürzt. Mit LINQ (`Where`) konnte ich die Liste filtern, ohne selbst eine Schleife zu schreiben. Das war neu für mich und hat mehr Zeit gebraucht als geplant. Ich habe den Code zuerst von Hand getestet und erst danach committet. So habe ich Fehler früher gefunden als in der letzten Lernperiode.
 
 ### Planung 06.11.2026
 
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
+- [ ] Klasse `Aufgabe` für die Serialisierung vorbereiten (parameterloser Konstruktor) und die Methode `Speichern` mit `System.Text.Json` in der Klasse `Aufgabenverwaltung` umsetzen
+- [ ] Methode `Laden` umsetzen, die beim Programmstart die Aufgaben aus der JSON-Datei einliest (Deserialisierung)
+- [ ] Fehlerbehandlung mit `try`/`catch` ergänzen für eine fehlende Datei und eine beschädigte JSON-Datei
+- [ ] Speichern nach jeder Änderung einbauen, den Ablauf (Programm beenden, neu starten, Aufgaben prüfen) von Hand testen, committen und pushen
+
 
 #### Tagesreflexion
 
