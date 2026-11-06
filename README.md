@@ -55,31 +55,24 @@ Heute habe ich die Verwaltungsfunktionen ergänzt. Am meisten gelernt habe ich b
 
 ### Planung 06.11.2026
 
-- [ ] Klasse `Aufgabe` für die Serialisierung vorbereiten (parameterloser Konstruktor) und die Methode `Speichern` mit `System.Text.Json` in der Klasse `Aufgabenverwaltung` umsetzen
-- [ ] Methode `Laden` umsetzen, die beim Programmstart die Aufgaben aus der JSON-Datei einliest (Deserialisierung)
-- [ ] Fehlerbehandlung mit `try`/`catch` ergänzen für eine fehlende Datei und eine beschädigte JSON-Datei
-- [ ] Speichern nach jeder Änderung einbauen, den Ablauf (Programm beenden, neu starten, Aufgaben prüfen) von Hand testen, committen und pushen
+- [x] Klasse `Aufgabe` für die Serialisierung vorbereiten (parameterloser Konstruktor) und die Methode `Speichern` mit `System.Text.Json` in der Klasse `Aufgabenverwaltung` umsetzen
+- [x] Methode `Laden` umsetzen, die beim Programmstart die Aufgaben aus der JSON-Datei einliest (Deserialisierung)
+- [x] Fehlerbehandlung mit `try`/`catch` ergänzen für eine fehlende Datei und eine beschädigte JSON-Datei
+- [x] Speichern nach jeder Änderung einbauen, den Ablauf (Programm beenden, neu starten, Aufgaben prüfen) von Hand testen, committen und pushen
 
 
 #### Tagesreflexion
 
-...Ihr Text...
+Heute habe ich die Persistenz umgesetzt. Neu war für mich, dass die Serialisierung nur funktioniert, wenn `System.Text.Json` die Klasse `Aufgabe` wieder aufbauen kann. Dafür brauchte ich einen parameterlosen Konstruktor. Ausserdem musste ich den Fall abfangen, dass die Datei beim ersten Start noch nicht existiert oder beschädigt ist, sonst stürzt das Programm beim Laden ab. Ich habe den Ablauf getestet, indem ich das Programm beendet und neu gestartet habe. So habe ich gesehen, ob die Daten wirklich erhalten bleiben, und nicht nur angenommen, dass es funktioniert.
 
-### Planung 13.11.2026
-
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-
-#### Tagesreflexion
-
-...Ihr Text...
 
 ### Planung 20.11.2026
 
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
+
+- [ ] Neues GitHub-Repository «Vokabeltrainer» erstellen und die Grundstruktur mit `index.html`, `style.css` und `script.js` anlegen
+- [ ] Formular in HTML und CSS bauen, mit dem man Vokabeln (Wort und Übersetzung) erfassen kann, und das Layout responsive gestalten
+- [ ] Vokabeln in JavaScript als Array von Objekten verwalten (Funktion `vokabelHinzufuegen`) und mit einer Schleife in einer Liste anzeigen
+- [ ] Vokabeln im `localStorage` speichern und beim Laden der Seite wieder einlesen, von Hand testen, committen und pushen
 
 #### Tagesreflexion
 
