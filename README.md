@@ -69,20 +69,21 @@ Heute habe ich die Persistenz umgesetzt. Neu war für mich, dass die Serialisier
 ### Planung 20.11.2026
 
 
-- [ ] Neues GitHub-Repository «Vokabeltrainer» erstellen und die Grundstruktur mit `index.html`, `style.css` und `script.js` anlegen
-- [ ] Formular in HTML und CSS bauen, mit dem man Vokabeln (Wort und Übersetzung) erfassen kann, und das Layout responsive gestalten
-- [ ] Vokabeln in JavaScript als Array von Objekten verwalten (Funktion `vokabelHinzufuegen`) und mit einer Schleife in einer Liste anzeigen
-- [ ] Vokabeln im `localStorage` speichern und beim Laden der Seite wieder einlesen, von Hand testen, committen und pushen
+- [x] Neues GitHub-Repository «Vokabeltrainer» erstellen und die Grundstruktur mit `index.html`, `style.css` und `script.js` anlegen
+- [x] Formular in HTML und CSS bauen, mit dem man Vokabeln (Wort und Übersetzung) erfassen kann, und das Layout responsive gestalten
+- [x] Vokabeln in JavaScript als Array von Objekten verwalten (Funktion `vokabelHinzufuegen`) und mit einer Schleife in einer Liste anzeigen
+- [x] Vokabeln im `localStorage` speichern und beim Laden der Seite wieder einlesen, von Hand testen, committen und pushen
 
 #### Tagesreflexion
 
-...Ihr Text...
+Heute habe ich mit dem Vokabeltrainer begonnen und die Grundstruktur mit HTML, CSS und JavaScript aufgebaut. Die Logik mit einem Array von Objekten und einer Schleife war mir aus dem C#-Projekt bekannt, nur die Schreibweise ist anders. Neu war der `localStorage`, der nur Text speichert. Deshalb musste ich die Vokabeln mit `JSON.stringify` und `JSON.parse` umwandeln, ähnlich wie bei der Serialisierung in C#. Ich habe nach jedem Schritt im Browser getestet und die Seite nach dem Neuladen geprüft. So habe ich Fehler früher bemerkt.
 
 ### Planung 27.11.2026
 
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
+- [ ] Abfragemodus in JavaScript umsetzen: Die Funktion `naechsteVokabel` zeigt ein zufälliges Wort an (mit `Math.random`) und der Benutzer gibt die Übersetzung ein
+- [ ] Funktion `antwortPruefen` schreiben, die die Eingabe mit der richtigen Übersetzung vergleicht (Gross-/Kleinschreibung und Leerzeichen ignorieren) und sofort «richtig» oder «falsch» anzeigt
+- [ ] Zähler für richtige und falsche Antworten einbauen und am Ende der Runde die Trefferquote in Prozent anzeigen
+- [ ] Löschen-Button pro Vokabel ergänzen, alle neuen Funktionen von Hand testen (leere Liste, leere Eingabe, Gross-/Kleinschreibung), committen und pushen
 
 #### Tagesreflexion
 
