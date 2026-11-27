@@ -80,20 +80,22 @@ Heute habe ich mit dem Vokabeltrainer begonnen und die Grundstruktur mit HTML, C
 
 ### Planung 27.11.2026
 
-- [ ] Abfragemodus in JavaScript umsetzen: Die Funktion `naechsteVokabel` zeigt ein zufälliges Wort an (mit `Math.random`) und der Benutzer gibt die Übersetzung ein
-- [ ] Funktion `antwortPruefen` schreiben, die die Eingabe mit der richtigen Übersetzung vergleicht (Gross-/Kleinschreibung und Leerzeichen ignorieren) und sofort «richtig» oder «falsch» anzeigt
-- [ ] Zähler für richtige und falsche Antworten einbauen und am Ende der Runde die Trefferquote in Prozent anzeigen
-- [ ] Löschen-Button pro Vokabel ergänzen, alle neuen Funktionen von Hand testen (leere Liste, leere Eingabe, Gross-/Kleinschreibung), committen und pushen
+- [x] Abfragemodus in JavaScript umsetzen: Die Funktion `naechsteVokabel` zeigt ein zufälliges Wort an (mit `Math.random`) und der Benutzer gibt die Übersetzung ein
+- [x] Funktion `antwortPruefen` schreiben, die die Eingabe mit der richtigen Übersetzung vergleicht (Gross-/Kleinschreibung und Leerzeichen ignorieren) und sofort «richtig» oder «falsch» anzeigt
+- [x] Zähler für richtige und falsche Antworten einbauen und am Ende der Runde die Trefferquote in Prozent anzeigen
+- [x] Löschen-Button pro Vokabel ergänzen, alle neuen Funktionen von Hand testen (leere Liste, leere Eingabe, Gross-/Kleinschreibung), committen und pushen
 
 #### Tagesreflexion
 
-...Ihr Text...
+Heute habe ich den Abfragemodus gebaut. Die grösste Herausforderung war der Vergleich der Antworten, weil `"Haus"` und `"haus "` zuerst als falsch gewertet wurden. Mit `trim()` und `toLowerCase()` habe ich das gelöst. Ausserdem musste ich den Fall abfangen, dass noch keine Vokabeln vorhanden sind, sonst gab es einen Fehler bei der Zufallsauswahl. Ich habe gelernt, zuerst die Sonderfälle zu überlegen und dann zu testen, statt sie erst zufällig zu entdecken.
+
 
 ### Planung 04.12.2026
 
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
-- [ ] ...Ihr Text...
+- [ ] Vokabeltrainer über GitHub Pages veröffentlichen und den Link im Repository in der README.md eintragen
+- [ ] Vokabeltrainer auf dem Handy testen (responsives Layout, localStorage, Abfrage) und gefundene Fehler beheben
+- [ ] C#-Projekt «Aufgabenverwaltung» nochmals vollständig durchspielen und sicherstellen, dass alle Funktionen (Hinzufügen, Löschen, Erledigt-Markieren, Filtern, Speichern, Laden) fehlerfrei laufen
+- [ ] Erste Stichpunkte für die Lernperiode-Reflexion notieren (Was habe ich gelernt? Was lief gut, was nicht?), committen und pushen
 
 #### Tagesreflexion
 
